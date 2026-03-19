@@ -22,6 +22,10 @@
   ],
   "terminal.integrated.localEchoStyle": "dim",
   "search.exclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/.next": true
+  },
+  "files.watcherExclude": {
+    "**/.next/**": true
   }
 }
